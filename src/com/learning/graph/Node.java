@@ -1,7 +1,6 @@
 package com.learning.graph;
 
 public class Node {
-
     String val;
     private boolean isVisited;
 

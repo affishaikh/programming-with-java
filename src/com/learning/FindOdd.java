@@ -1,6 +1,9 @@
 package com.learning;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 public class FindOdd {
     public static int findIt(int[] a) {

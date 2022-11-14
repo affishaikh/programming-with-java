@@ -12,6 +12,42 @@ public class Graph {
         return this;
     }
 
+    public ArrayList<Node> dfs() {
+        return this.dfs(this.weightedEdges.get(0).node1);
+    }
+
+    public ArrayList<Node> bfs() {
+        return this.bfs(this.weightedEdges.get(0).node1);
+    }
+
+    public ArrayList<Node> shortestPath(Node source, Node destination) {
+        return this.bfs(this.weightedEdges.get(0).node1);
+    }
+
+//    private ArrayList<Node> shortestPathUsingBFS(Node node, Node source, Node destination, ArrayList<ArrayList<Node>> paths) {
+//        LinkedList nodesToBeExplored = new LinkedList<Node>();
+//        node.markVisited();
+//        nodesToBeExplored.add(node);
+//        while (!nodesToBeExplored.isEmpty()) {
+//            Node firstNodeInQueue = (Node) nodesToBeExplored.peek();
+//            List<Node> adjacentNodes = getNonVisitedAdjacentOf(firstNodeInQueue);
+//            for (Node adjacentNode : adjacentNodes) {
+//                adjacentNode.markVisited();
+//                nodesToBeExplored.add(adjacentNode);
+//            }
+//            exploredNodes.add(firstNodeInQueue);
+//            nodesToBeExplored.remove();
+//        }
+//        return exploredNodes;
+//    }
+
+    @Override
+    public String toString() {
+        return "Graph{" +
+                "weightedEdges=" + weightedEdges +
+                '}';
+    }
+
     private ArrayList<Node> dfs(Node node) {
         ArrayList<Node> visitedNodes = new ArrayList();
         node.markVisited();
@@ -23,10 +59,6 @@ public class Graph {
             }
         }
         return visitedNodes;
-    }
-
-    public ArrayList<Node> dfs() {
-        return this.dfs(this.weightedEdges.get(0).node1);
     }
 
     private ArrayList<Node> bfs(Node node) {
@@ -47,10 +79,6 @@ public class Graph {
         return exploredNodes;
     }
 
-    public ArrayList<Node> bfs() {
-        return this.bfs(this.weightedEdges.get(0).node1);
-    }
-
     private List<Node> getNonVisitedAdjacentOf(Node node) {
         ArrayList<Node> adjacentNodes = new ArrayList();
 
@@ -64,13 +92,6 @@ public class Graph {
         }
 
         return adjacentNodes;
-    }
-
-    @Override
-    public String toString() {
-        return "Graph{" +
-                "weightedEdges=" + weightedEdges +
-                '}';
     }
 
     public static void main(String[] args) {
