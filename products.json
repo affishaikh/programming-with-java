@@ -1,0 +1,251 @@
+[
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 55
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "Central",
+    "num_sales": 120
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "Central",
+    "num_sales": 78
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 23
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 10
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 98
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "West",
+    "num_sales": 61
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "North",
+    "num_sales": 180
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 14
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "North",
+    "num_sales": 45
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 87
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "Central",
+    "num_sales": 34
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "South",
+    "num_sales": 42
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "West",
+    "num_sales": 58
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "Central",
+    "num_sales": 27
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 91
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "West",
+    "num_sales": 82
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 37
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "North",
+    "num_sales": 68
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "Central",
+    "num_sales": 54
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 81
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "North",
+    "num_sales": 25
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 46
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "Central",
+    "num_sales": 121
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "South",
+    "num_sales": 85
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "North",
+    "num_sales": 43
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "West",
+    "num_sales": 10
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 5
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "Central",
+    "num_sales": 16
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "South",
+    "num_sales": 9
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "West",
+    "num_sales": 22
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "Central",
+    "num_sales": 59
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 76
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "West",
+    "num_sales": 48
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 19
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "North",
+    "num_sales": 3
+  },
+  {
+    "product_name": "Couch",
+    "store_location": "West",
+    "num_sales": 63
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "South",
+    "num_sales": 81
+  },
+  {
+    "product_name": "Desk",
+    "store_location": "North",
+    "num_sales": 85
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "North",
+    "num_sales": 90
+  },
+  {
+    "product_name": "Chair",
+    "store_location": "Central",
+    "num_sales": 47
+  }
+]
+
+insert into products values ("Chair"	, "North",	55);
+insert into products values ("Desk"	, "Central",	120);
+insert into products values ("Couch"	, "Central",	78);
+insert into products values ("Chair"	, "South",	23);
+insert into products values ("Chair"	, "South",	10);
+insert into products values ("Chair"	, "North",	98);
+insert into products values ("Desk"	, "West",	61);
+insert into products values ("Couch"	, "North",	180);
+insert into products values ("Chair"	, "South",	14);
+insert into products values ("Desk"	, "North",	45);
+insert into products values ("Chair"	, "North",	87);
+insert into products values ("Chair"	, "Central",	34);
+insert into products values ("Desk"	, "South",	42);
+insert into products values ("Couch"	, "West",	58);
+insert into products values ("Couch"	, "Central",	27);
+insert into products values ("Chair"	, "South",	91);
+insert into products values ("Chair"	, "West",	82);
+insert into products values ("Chair"	, "North",	37);
+insert into products values ("Desk"	, "North",	68);
+insert into products values ("Couch"	, "Central",	54);
+insert into products values ("Chair"	, "South",	81);
+insert into products values ("Desk"	, "North",	25);
+insert into products values ("Chair"	, "North",	46);
+insert into products values ("Chair"	, "Central",	121);
+insert into products values ("Desk"	, "South",	85);
+insert into products values ("Couch"	, "North",	43);
+insert into products values ("Desk"	, "West",	10);
+insert into products values ("Chair"	, "North",	5);
+insert into products values ("Chair"	, "Central",	16);
+insert into products values ("Desk"	, "South",	9);
+insert into products values ("Couch"	, "West",	22);
+insert into products values ("Couch"	, "Central",	59);
+insert into products values ("Chair"	, "South",	76);
+insert into products values ("Chair"	, "West",	48);
+insert into products values ("Chair"	, "North",	19);
+insert into products values ("Desk"	, "North",	3);
+insert into products values ("Couch"	, "West",	63);
+insert into products values ("Chair"	, "South",	81);
+insert into products values ("Desk"	, "North",	85);
+insert into products values ("Chair"	, "North",	90);
+insert into products values ("Chair"	, "Central",	47);
+insert into products values ("Desk"	, "West",	63);
+insert into products values ("Couch"	, "North",	28);

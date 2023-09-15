@@ -1,7 +1,7 @@
 package com.learning;
 
 public class Sheeps {
-    public Boolean[] totalNumberOfShips = {true, true, true, false,
+    public Boolean[] totalNumberOfShips = {true, true, false, false,
             true, true, true, true,
             true, false, true, false,
             true, false, false, true,
